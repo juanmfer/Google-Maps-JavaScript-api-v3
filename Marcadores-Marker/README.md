@@ -5,7 +5,7 @@ Los marcadores son la forma de identificar ubicaciones en el mapa, se pueden hac
  https://developers.google.com/maps?hl=es-419
 </h4>
 <br>
-<div style="text-align:center">
+<div style="text-align:center width=100%">
 <picture>
   <img alt="Marcadores Creados" src="https://github.com/juanmfer/Google-Maps-JavaScript/blob/main/Marcadores-Marker/Marcadores-Marker-jmf.png">
 </picture>
