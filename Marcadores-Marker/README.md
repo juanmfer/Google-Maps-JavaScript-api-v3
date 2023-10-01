@@ -1,7 +1,7 @@
 <h3 align="center">Marcadores-Marker Google Maps Javascript</h3>
 
 Los marcadores son la forma de identificar ubicaciones en el mapa, se pueden hacer mediante "Clicks" o mediante una latitud y longitud.
-<h4>Se debe habilitar la API de GOOGLE MAPS JAVASCRIPT en: </h4><br>
+<h4 align="center">Se debe habilitar la API de GOOGLE MAPS JAVASCRIPT en: </h4><br>
  https://developers.google.com/maps?hl=es-419
 
 <br>
