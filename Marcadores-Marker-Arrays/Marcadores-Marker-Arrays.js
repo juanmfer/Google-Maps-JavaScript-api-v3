@@ -20,10 +20,10 @@ function initMap() {
 
     for(let enarray of latlongArray) { // recorremos el array
         new google.maps.Marker({ // Creamos el marcador en la posicion enarray 
-            position: { lat: enarray.lat, lng: enarray.lng }, // asignamos la posicion del marcador, sera nuestra constante.
+            position: { lat: enarray.lat, lng: enarray.lng }, // asignamos la posicion del marcador.
             map: map,  // donde mostraremos el marcador, el mapa esta creado en la constante map.
                        // se puede crear como solo "map,"  o  "map: map,", aqui el ejemplo.
-            title: enarray.nombre,
+            title: enarray.nombre, // asignamos el objeto nombre de nuestro array.
           });
     }
 }
