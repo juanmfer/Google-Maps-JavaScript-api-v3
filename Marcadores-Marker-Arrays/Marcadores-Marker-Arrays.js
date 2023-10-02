@@ -10,8 +10,8 @@ function initMap() {
         center: { lat:-34.60286907260642, lng:-58.381370076086085 }, // center  es donde se centrara el mapa, puede ser una constante, variable, o directamente latitud y longitud.
       });
 
-    let latlongArray = [ // array con nuestros puntos de intere
-        { nombre: "Marcador Buenos Aires", lat:-34.60286907260642, lng:-58.381370076086085},
+    let latlongArray = [ // array con nuestros puntos de interes
+        { nombre: "Marcador Buenos Aires", lat:-34.60286907260642, lng:-58.381370076086085}, // objetos del arreglo
         { nombre: "Marcador Mendoza", lat: -32.91023272635606, lng: -68.69569720477247},
         { nombre: "Marcador Corrientes", lat: -28.617965510530862, lng: -58.28000923093033},
         { nombre: "Marcador Santa Fe", lat: -30.248337131013084, lng: -60.78359929344065},
