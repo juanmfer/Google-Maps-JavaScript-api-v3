@@ -1,6 +1,6 @@
 // Juan Manuel Fernandez
 // https://github.com/juanmfer/
-// Marcadores Marker Arrays Info Windows
+// Marcadores Marker Arrays InfoWindows
 // Para que funcione se necesitara tener habilitado la API de GOOGLE MAPS JAVASCRIPT
 // https://developers.google.com/maps?hl=es-419
 
