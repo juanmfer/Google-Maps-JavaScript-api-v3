@@ -1,0 +1,28 @@
+/*
+    Juan Manuel Fernandez
+    https://github.com/juanmfer/
+    Marcadores Marker Arrays InfoWindows
+
+    Para que funcione se necesitara tener habilitada la API de GOOGLE MAPS JAVASCRIPT
+    https://developers.google.com/maps?hl=es-419
+
+    Reemplaza ** TU-API-GOOGLE-MAPS-JAVASCRIPT
+    https://maps.googleapis.com/maps/api/js?key=TU-API-GOOGLE-MAPS-JAVASCRIPT&callback=initMap
+    Por tu API GOOGLE MAPS JAVASCRIPT ** AIza........
+    https://maps.googleapis.com/maps/api/js?key=AIza........&callback=initMap
+*/
+
+
+#map {
+    height: 100vh;
+  }
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
