@@ -25,16 +25,16 @@ function initMap() {
                        // se puede crear como solo "map,"  o  "map: map,", aqui el ejemplo.
             title: enarray.nombre, // asignamos el objeto nombre de nuestro array.
         });
-        let contenidoInfoWin = '<div class="info-container">' +
+        let contenidoInfoWin = '<div class="info-container">' + // creamos la informacion adicional para InfoWindows
         '<div><strong>Pais:</strong> ' + enarray.pais + '</div>' +
         '<div><strong>Provincia:</strong> ' + enarray.prov + '</div>' +
         '<div><strong>Coordenadas:</strong> ' + enarray.lat + ', ' + enarray.lng + '</div>' +
         '</div>';
-        let infowindow = new google.maps.InfoWindow({
+        let infowindow = new google.maps.InfoWindow({ // creamos el InfoWindows
             content: contenidoInfoWin
         });
-        marcador.addListener('click', function() {
-            infowindow.open(map, marcador); // Abre el infoWindow en el mapa y en el marcador
+        marcador.addListener('click', function() {// abre el infoWindow en el mapa y en el marcador
+            infowindow.open(map, marcador);
         });
 
 
