@@ -1,6 +1,7 @@
+// Marcadores Marker Arrays InfoWindows
+
 // Juan Manuel Fernandez
 // https://github.com/juanmfer/
-// Marcadores Marker Arrays InfoWindows
 // Para que funcione se necesitara tener habilitado la API de GOOGLE MAPS JAVASCRIPT
 // https://developers.google.com/maps?hl=es-419
 
@@ -36,9 +37,6 @@ function initMap() {
         marcador.addListener('click', function() {// abre el infoWindow en el mapa y en el marcador
             infowindow.open(map, marcador);
         });
-
-
-
     }
 }
 window.initMap = initMap;
