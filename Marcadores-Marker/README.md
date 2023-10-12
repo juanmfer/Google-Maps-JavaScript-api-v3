@@ -4,7 +4,7 @@ Markers are the way to identify locations on the map, and they can be created ei
 <br><br>
 Los marcadores son la forma de identificar ubicaciones en el mapa, se pueden hacer mediante "Clicks" o mediante una latitud y longitud.
 En este programa, los puntos en el mapa son mediante CONST, constantes, es el primer paso, previo a crear puntos mediante ARRAYS.
-<h4 align="center">Se debe habilitar la API de GOOGLE MAPS JAVASCRIPT en:<br>
+<h4 align="center">The GOOGLE MAPS JAVASCRIPT API must be enabled on: | Se debe habilitar la API de GOOGLE MAPS JAVASCRIPT en:<br>
  https://developers.google.com/maps?hl=es-419
 </h4>
 <br>
