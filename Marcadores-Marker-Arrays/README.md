@@ -1,5 +1,7 @@
 <h3 align="center">Marcadores-Marker Google Maps Javascript Arrays</h3>
-
+Markers are the means to identify locations on the map, and they can be created either by "clicks" or by specifying a latitude and longitude.
+In this program, map points are generated through iterating over an array. As the array is traversed, points of interest are created.
+<br><br>
 Los marcadores son la forma de identificar ubicaciones en el mapa, se pueden hacer mediante "Clicks" o mediante una latitud y longitud.
 En este programa, los puntos en el mapa son mediante la iteración de un array. a medida que se itera sobre el array se van creando los puntos de interes.
 <h4 align="center">Se debe habilitar la API de GOOGLE MAPS JAVASCRIPT en:<br>
